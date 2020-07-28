@@ -1,0 +1,112 @@
+.section-features {
+    margin-top: 125px;
+    background: white;
+    .section-inner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        // height: 100vh;
+    }
+    &-items__wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    &-items {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        border-bottom: 1px solid #777777;
+        padding-bottom: 60px;
+        width: 58%;
+        &__item {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            margin-bottom: 60px;
+            margin-right: 20px;
+            .icon-wrapper {
+                background: white;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border: 1px solid #eeeeee;
+                border-radius: 50%;
+                width: 65px;
+                height: 65px;
+                margin-right: 20px;
+                .icon {
+                    color: #f31f79;
+                }
+            }
+            .text {
+                display: flex;
+                flex-direction: column;
+                width: 261px;
+                .title {
+                    @include font-dosis;
+                    font-size: 24px;
+                    font-weight: 500;
+                    line-height: 24px;
+                    margin-bottom: 20px;
+                }
+                .subtitle {
+                    @include font-roboto;
+                    font-size: 14px;
+                    font-weight: 300;
+                    line-height: 24px;
+                    color: #777777;
+                }
+            }
+        }
+    }
+    &-reasons {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        position: relative;
+        &__photo {
+        }
+        &__content {
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            margin-left: -18%;
+
+            .title,
+            .subtitle-1,
+            .subtitle-2,
+            .list {
+                width: 550px;
+            }
+            .title {
+                @include font-dosis;
+                font-size: 36px;
+                font-weight: 500;
+                line-height: 30px;
+                margin-bottom: 30px;
+            }
+            .subtitle-1,
+            .subtitle-2 {
+                @include font-roboto;
+                font-size: 14px;
+                font-weight: 300;
+                line-height: 24px;
+                color: #777777;
+            }
+            .subtitle-1 {
+                margin-bottom: 75px;
+            }
+            .subtitle-2 {
+                margin-bottom: 40px;
+            }
+            .list {
+                @include font-roboto;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 24px;
+                color: #777777;
+            }
+        }
+    }
+}
