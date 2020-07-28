@@ -1,0 +1,28 @@
+mixin feature(title,subtitle,icon)
+    .section-inner-features__item
+        .icon(class=icon)
+        .text
+            .title=title
+            .subtitle=subtitle
+
+section.section-outer.section-features
+            .section-inner
+                .section-inner-features
+                    +feature('Sell any product online','Over 92% of computers are infected with Adware and spyware. Such software is', "fas fa-tags")
+                    +feature('Very easy to customize','Many of us are so used to working on a computer desktop that when it comes', "fas fa-cog")
+                    +feature('Unlimited colors','Audio player software is used to play back sound recordings in one of the many', "fas fa-paint-brush")
+                    +feature('Responsive, HTML5, CSS3','Computers have become ubiquitous in almost every facet of our lives. At work', "fas fa-fire-extinguisher")
+                    +feature('Designed to convert','If you are looking for a new way to promote your business that won\'t const', "fas fa-file-alt")
+                    +feature('With no boundaries','Now, if you are interested in being the best player, getting really good money and', "fas fa-life-ring")
+                .section-inner-reasons
+                    .section-inner-reasons__photo
+                        img(src="/assets/img/iPhone.png")
+                    .section-inner-reasons__content
+                        .title
+                        .subtitle-1
+                        .subtitle-2
+                        .list
+                            ul
+                                li='Unlimited colors: banner with images, slider or video'
+                                li='Fully Responsive and powered by HTML5 and CSS3'
+                                li='Very easy to customize : set up in minutes'

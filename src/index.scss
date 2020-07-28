@@ -23,7 +23,11 @@
 // /Mixins
 
 //imports
+//fontawesome
+@import '../node_modules/@fortawesome/fontawesome-free/css/all.min.css';
+
 @import './components/header/header.scss';
+@import './components/features/features.scss';
 // /imports
 
 // common
