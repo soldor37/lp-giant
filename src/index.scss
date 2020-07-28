@@ -21,3 +21,13 @@
     font-family: 'Roboto', sans-serif;
 }
 // /Mixins
+
+//imports
+@import './components/header/header.scss';
+// /imports
+
+// common
+* {
+    box-sizing: border-box;
+}
+// /common
