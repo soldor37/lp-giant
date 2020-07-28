@@ -1,0 +1,23 @@
+@import './components/normalize.scss';
+
+@font-face {
+    font-family: "Dosis";
+    src: url(./assets/fonts/Dosis/Dosis-Bold.ttf);
+    src: url(./assets/fonts/Dosis/Dosis-Regular.ttf);
+    src: url(./assets/fonts/Dosis/Dosis-Medium.ttf);
+    src: url(./assets/fonts/Dosis/Dosis-SemiBold.ttf);
+}
+@font-face {
+    font-family: "Roboto";
+    src: url(./assets/fonts/Roboto/Roboto-Light.ttf);
+    src: url(./assets/fonts/Roboto/Roboto-Medium.ttf);
+    src: url(./assets/fonts/Roboto/Roboto-Regular.ttf);
+}
+// Mixins
+@mixin font-dosis {
+    font-family: 'Dosis', sans-serif;
+}
+@mixin font-roboto {
+    font-family: 'Roboto', sans-serif;
+}
+// /Mixins
