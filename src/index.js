@@ -13,6 +13,7 @@ import iPhone from './assets/img/iPhone.png'
     import pf6 from './assets/img/portfolio/shot6.png'
     import pf7 from './assets/img/portfolio/shot7.png'
     // /portfolio
+import Video from './assets/img/Video.png'
 // /img
 
 //css

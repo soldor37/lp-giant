@@ -1,0 +1,22 @@
+.section-video {
+    &__content {
+        position: relative;
+        .icon-wrapper {
+            background: linear-gradient(90deg, #fd712c, #f01c78);
+            color: white;
+            font-size: 26px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 75px;
+            height: 75px;
+            border-radius: 50%;
+            position: absolute;
+            top: 43%;
+            right: 49%;
+            cursor: pointer;
+            .icon {
+            }
+        }
+    }
+}
