@@ -4,6 +4,15 @@ import fontawesome from '@fortawesome/fontawesome-free/js/all'
 
 // img
 import iPhone from './assets/img/iPhone.png'
+    //portfolio
+    import pf1 from './assets/img/portfolio/shot1.png'
+    import pf2 from './assets/img/portfolio/shot2.png'
+    import pf3 from './assets/img/portfolio/shot3.png'
+    import pf4 from './assets/img/portfolio/shot4.png'
+    import pf5 from './assets/img/portfolio/shot5.png'
+    import pf6 from './assets/img/portfolio/shot6.png'
+    import pf7 from './assets/img/portfolio/shot7.png'
+    // /portfolio
 // /img
 
 //css

@@ -1,0 +1,24 @@
+mixin price(title, price, listItem1)
+    .price-item
+        .price-item__title=title
+        .price-item__price=price
+        .price-item__list
+            ul
+                li=listItem1
+                li='Multilple Access'
+                li='SMS Support'
+                li='24/7 Online Support'
+        .price-item__trial='Start Free Trial'
+        .price-item__btn='Buy Now'
+
+section.section-outer.section-pricing
+    .section-inner 
+        .section-pricing-wrapper
+            .section-pricing__title='We\'ve got the perfect package for you'
+            .section-pricing__subtitle='Everyone’s reasons for learning user interface design are different. If you’re already a developer, or a PM, or a UX designer, why develop this totally separate skill?'
+            .section-pricing__prices
+                .section-pricing__prices-wrapper
+                    +price('Basic','$12.0/m','One User')
+                    +price('Standart','$24.0/m','Five User')
+                    +price('Premium','$250.0/m','Twenty User')
+                    +price('Enterprise','$999.0/m','Unlimited User')
