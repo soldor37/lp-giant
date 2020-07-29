@@ -1,0 +1,20 @@
+mixin review(text, photo, name)
+    .review
+        .review__text=text
+        .review__person-wrapper
+            .photo
+                img(src="/assets/"+photo)
+            .info
+                .info__name=name
+                .info__company='Apple Inc.'
+
+section.section-outer.section-reviews
+    .section-inner
+        .section-reviews-content
+            .section-reviews-content__title='What our customers are saying'
+            .section-reviews-content__subtitle='Everyone’s reasons for learning user interface design are different. If you’re already a developer, or a PM, or a UX designer, why develop this totally separate skill?'
+            .section-reviews-content__reviews
+                .reviews-wrapper
+                    +review('The JustLanded for WordPress theme is great, super easy to use and to customize and the support is just awesome: super fast and reliable.','face1.png','Alexandra Bullock')
+                    +review('Very happy with the theme and incredibly easy to configure, well done! I cannot emphasize how awesome this theme and developer support are.','face2.png','Gary Sebastian')
+                    +review('Definitely a great theme and the support team are fantastic. Customer support is numero uno and ShapingRain have got this spot on. Cheers guys.','face3.png','Samantha Bilbau')

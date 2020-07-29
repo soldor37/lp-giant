@@ -1,0 +1,18 @@
+mixin downloadBtn(subtitle, icon)
+    .card
+        .icon-wrapper
+            .icon(class=icon)
+        .text
+            .title='Download'
+            .subtitle='Download from '+subtitle+' store'
+
+section.section-outer.section-download
+    .section-inner
+        .section-download-content
+            .section-download-content__title='Download Giant App Now'
+            .section-download-content__buttons
+                .buttons-wrapper
+                    +downloadBtn('app','fab fa-apple')
+                    +downloadBtn('play','fab fa-android')
+                    +downloadBtn('microsoft','fab fa-windows')
+

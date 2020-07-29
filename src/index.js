@@ -14,6 +14,12 @@ import iPhone from './assets/img/iPhone.png'
     import pf7 from './assets/img/portfolio/shot7.png'
     // /portfolio
 import Video from './assets/img/Video.png'
+
+    //rewiews people
+    import face1 from './assets/img/face1.png'
+    import face2 from './assets/img/face2.png'
+    import face3 from './assets/img/face3.png'
+    // /rewiews people
 // /img
 
 //css

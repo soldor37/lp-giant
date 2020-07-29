@@ -1,0 +1,75 @@
+.section-reviews {
+    color: #777777;
+    @include font-roboto;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    .section-inner {
+        min-height: 690px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 120px;
+    }
+    .section-reviews-content {
+        width: 58%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        &__title {
+            color: #222222;
+            @include font-dosis;
+            font-size: 36px;
+            font-weight: 700;
+            line-height: 30px;
+            margin-bottom: 30px;
+        }
+        &__subtitle {
+            width: 58%;
+            text-align: center;
+            margin-bottom: 75px;
+        }
+        &__reviews {
+            .reviews-wrapper {
+                display: flex;
+                flex-direction: row;
+                .review {
+                    display: flex;
+                    flex-direction: column;
+                    width: 360px;
+                    padding: 40px;
+                    background: #f7fafc;
+                    margin-right: 30px;
+                    &__text {
+                        margin-bottom: 25px;
+                    }
+                    &__person-wrapper {
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        .photo {
+                            margin-right: 20px;
+                        }
+                        .info {
+                            &__name {
+                                color: #222222;
+                                @include font-dosis;
+                                font-size: 18px;
+                                font-weight: 500;
+                                line-height: 24px;
+                            }
+                            &__company {
+                            }
+                        }
+                    }
+                    &:hover {
+                        -webkit-transition-duration: 0.4s; /* Safari */
+                        transition-duration: 0.4s;
+                        background: white;
+                        box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.1);
+                    }
+                }
+            }
+        }
+    }
+}
