@@ -2,6 +2,14 @@
 import fontawesome from '@fortawesome/fontawesome-free/js/all'
 // /modules
 
+// js
+// import scrnShots from './components/screenshots/screenshots'
+// /js
+
+//bootstrap
+import 'bootstrap'
+// bootstrap
+
 // img
 import iPhone from './assets/img/iPhone.png'
     //portfolio

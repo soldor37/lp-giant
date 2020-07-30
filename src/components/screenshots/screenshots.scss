@@ -1,3 +1,72 @@
-.section-screenshots{
+.section-screenshots {
     background: #f7fafc;
+    max-height: 915px;
+    .section-inner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .section-screenshots-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 120px;
+        margin-bottom: 120px;
+        a {
+            background: white;
+            color: #333333;
+            width: 35px;
+            height: 35px;
+            border-radius: 50%;
+            &:hover {
+                color: #ffffff;
+                background: linear-gradient(90deg, #fd712c, #f01c78);
+                box-shadow: 0 0 5px #222222;
+            }
+        }
+        .prev {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: absolute;
+            left: 30%;
+        }
+        .next {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: absolute;
+            right: 30%;
+        }
+    }
+    &__title {
+        @include font-dosis;
+        font-size: 36px;
+        font-weight: 600;
+        line-height: 30px;
+        color: #333333;
+        margin-bottom: 25px;
+    }
+    &__subtitle {
+        @include font-roboto;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 24px;
+        color: #777777;
+        margin-bottom: 75px;
+        width: 68%;
+        text-align: center;
+    }
+    &__slider {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        .carousel-inner{
+            img{
+                height: 500px;
+            }
+        }
+    }
 }
