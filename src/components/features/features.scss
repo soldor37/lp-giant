@@ -1,5 +1,6 @@
 .section-features {
     margin-top: 125px;
+    margin-bottom: 125px;
     background: white;
     .section-inner {
         display: flex;
@@ -16,6 +17,7 @@
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
+        justify-content: center;
         border-bottom: 1px solid #777777;
         padding-bottom: 60px;
         width: 58%;
@@ -59,7 +61,7 @@
                 }
             }
         }
-        @media (max-width: 1285px){
+        @media (max-width: 1285px) {
             flex-direction: unset;
             width: 100%;
             padding: 0 40px;
@@ -72,19 +74,30 @@
         flex-direction: row;
         align-items: center;
         position: relative;
+        margin-top: 120px;
+        
         &__photo {
+            background: url("/assets/img/iPhone.png") no-repeat 50%;
+            width: 800px;
+            height: 700px;
         }
         &__content {
             display: flex;
             flex-direction: column;
             position: relative;
-            margin-left: -18%;
+            // margin-left: -18%;
 
             .title,
             .subtitle-1,
             .subtitle-2,
             .list {
-                width: 550px;
+                @media (min-width: 1275px) {
+                    width: 550px;
+                }
+                @media (max-width: 1155px) {
+                    width: 100%;
+                    padding: 10px;
+                }
             }
             .title {
                 @include font-dosis;
@@ -131,12 +144,13 @@
                 }
             }
         }
+        
         @media (max-width: 1155px) {
-            padding: 40px 40px;
+            padding: 40px 65px;
             &__photo {
                 display: none;
             }
-            &__content{
+            &__content {
                 margin-left: 0;
             }
         }

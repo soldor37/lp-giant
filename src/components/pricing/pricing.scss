@@ -30,7 +30,7 @@
         width: 36%;
         @media (max-width: 950px) {
             width: 100%;
-            padding: 10px 40px;
+            padding: 10px 80px;
 
         }
     }
@@ -38,6 +38,7 @@
         &-wrapper {
             display: flex;
             flex-direction: row;
+            justify-content: center;
             .price-item {
                 display: flex;
                 flex-direction: column;
