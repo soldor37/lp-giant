@@ -59,6 +59,13 @@
                 }
             }
         }
+        @media (max-width: 1285px){
+            flex-direction: unset;
+            width: 100%;
+            padding: 0 40px;
+            align-items: center;
+            justify-content: center;
+        }
     }
     &-reasons {
         display: flex;
@@ -122,6 +129,23 @@
                         color: #222222;
                     }
                 }
+            }
+        }
+        @media (max-width: 1155px) {
+            padding: 40px 40px;
+            &__photo {
+                display: none;
+            }
+            &__content{
+                margin-left: 0;
+            }
+        }
+        @media (max-width: 610px) {
+            .title,
+            .subtitle-1,
+            .subtitle-2,
+            .list {
+                width: 100%;
             }
         }
     }

@@ -26,6 +26,25 @@
 @import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 // bootstrap
 
+
+// var
+$color-white: #ffffff;
+$color-orange: #fd712c;
+$color-pink: #f01c78;
+$color-darkGray: #222222;
+$color-Gray: #333333;
+$color-lightGray: #777777;
+
+$screen-sm: 576px;
+$screen-md: 768px;
+$screen-xl: 992px;
+$screen-lg: 1200px;
+
+$screen-sm-max: 767px;
+$screen-md-max: 991px;
+$screen-xl-max: 1199px;
+ // /var
+
 //imports
 //fontawesome
 @import '../node_modules/@fortawesome/fontawesome-free/css/all.min.css';
@@ -43,5 +62,8 @@
 // common
 * {
     box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
 }
 // /common
